@@ -881,7 +881,7 @@ function Game1() {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$noop$2d$head$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("title", {
-                        className: "jsx-a76d9429b0eea9b8",
+                        className: "jsx-b7a271b598360364",
                         children: "Drawing Game"
                     }, void 0, false, {
                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
@@ -891,7 +891,7 @@ function Game1() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("link", {
                         rel: "stylesheet",
                         href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css",
-                        className: "jsx-a76d9429b0eea9b8"
+                        className: "jsx-b7a271b598360364"
                     }, void 0, false, {
                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
                         lineNumber: 71,
@@ -904,13 +904,13 @@ function Game1() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "jsx-a76d9429b0eea9b8" + " " + "app",
+                className: "jsx-b7a271b598360364" + " " + "app",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "jsx-a76d9429b0eea9b8" + " " + "controls",
+                        className: "jsx-b7a271b598360364" + " " + "controls",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-a76d9429b0eea9b8" + " " + "title",
+                                className: "jsx-b7a271b598360364" + " " + "title",
                                 children: "Sketch"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/view/game-components/drawing-game.js",
@@ -918,14 +918,14 @@ function Game1() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-a76d9429b0eea9b8" + " " + "type",
+                                className: "jsx-b7a271b598360364" + " " + "type",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
                                         type: "radio",
                                         name: "pen-type",
                                         id: "pen-pencil",
                                         defaultChecked: true,
-                                        className: "jsx-a76d9429b0eea9b8"
+                                        className: "jsx-b7a271b598360364"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
                                         lineNumber: 79,
@@ -933,9 +933,9 @@ function Game1() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "pen-pencil",
-                                        className: "jsx-a76d9429b0eea9b8",
+                                        className: "jsx-b7a271b598360364",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                            className: "jsx-a76d9429b0eea9b8" + " " + "fa-solid fa-pencil"
+                                            className: "jsx-b7a271b598360364" + " " + "fa-solid fa-pencil"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/view/game-components/drawing-game.js",
                                             lineNumber: 81,
@@ -950,7 +950,7 @@ function Game1() {
                                         type: "radio",
                                         name: "pen-type",
                                         id: "pen-brush",
-                                        className: "jsx-a76d9429b0eea9b8"
+                                        className: "jsx-b7a271b598360364"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
                                         lineNumber: 84,
@@ -958,9 +958,9 @@ function Game1() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "pen-brush",
-                                        className: "jsx-a76d9429b0eea9b8",
+                                        className: "jsx-b7a271b598360364",
                                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {
-                                            className: "jsx-a76d9429b0eea9b8" + " " + "fa fa-paint-brush"
+                                            className: "jsx-b7a271b598360364" + " " + "fa fa-paint-brush"
                                         }, void 0, false, {
                                             fileName: "[project]/src/app/view/game-components/drawing-game.js",
                                             lineNumber: 86,
@@ -978,11 +978,11 @@ function Game1() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-a76d9429b0eea9b8" + " " + "size",
+                                className: "jsx-b7a271b598360364" + " " + "size",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "pen-size",
-                                        className: "jsx-a76d9429b0eea9b8",
+                                        className: "jsx-b7a271b598360364",
                                         children: "Size"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
@@ -994,7 +994,7 @@ function Game1() {
                                         id: "pen-size",
                                         min: "1",
                                         max: "50",
-                                        className: "jsx-a76d9429b0eea9b8"
+                                        className: "jsx-b7a271b598360364"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
                                         lineNumber: 92,
@@ -1007,11 +1007,11 @@ function Game1() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-a76d9429b0eea9b8" + " " + "color",
+                                className: "jsx-b7a271b598360364" + " " + "color",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
                                         htmlFor: "pen-color",
-                                        className: "jsx-a76d9429b0eea9b8",
+                                        className: "jsx-b7a271b598360364",
                                         children: "Color"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
@@ -1022,7 +1022,7 @@ function Game1() {
                                         type: "color",
                                         id: "pen-color",
                                         defaultValue: "#000",
-                                        className: "jsx-a76d9429b0eea9b8"
+                                        className: "jsx-b7a271b598360364"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
                                         lineNumber: 97,
@@ -1035,11 +1035,11 @@ function Game1() {
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                className: "jsx-a76d9429b0eea9b8" + " " + "actions",
+                                className: "jsx-b7a271b598360364" + " " + "actions",
                                 children: [
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         id: "reset-canvas",
-                                        className: "jsx-a76d9429b0eea9b8",
+                                        className: "jsx-b7a271b598360364",
                                         children: "Canvas"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
@@ -1048,7 +1048,7 @@ function Game1() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         id: "save-canvas",
-                                        className: "jsx-a76d9429b0eea9b8",
+                                        className: "jsx-b7a271b598360364",
                                         children: "Save"
                                     }, void 0, false, {
                                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
@@ -1070,7 +1070,7 @@ function Game1() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         id: "canvas-wrapper",
                         ref: canvasWrapperRef,
-                        className: "jsx-a76d9429b0eea9b8"
+                        className: "jsx-b7a271b598360364"
                     }, void 0, false, {
                         fileName: "[project]/src/app/view/game-components/drawing-game.js",
                         lineNumber: 106,
@@ -1083,8 +1083,8 @@ function Game1() {
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$styled$2d$jsx$2f$style$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                id: "a76d9429b0eea9b8",
-                children: ".jsx-a76d9429b0eea9b8{box-sizing:border-box;margin:0;padding:0}body.jsx-a76d9429b0eea9b8{background:#555}.app.jsx-a76d9429b0eea9b8{width:650px;height:650px;font-family:Raleway,sans-serif;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%)}.controls.jsx-a76d9429b0eea9b8{background:#ddd;align-items:center;height:50px;padding:0 10px;display:flex}.controls.jsx-a76d9429b0eea9b8 .title.jsx-a76d9429b0eea9b8{color:#222;width:80px;font-weight:600}.controls.jsx-a76d9429b0eea9b8 .type.jsx-a76d9429b0eea9b8,.controls.jsx-a76d9429b0eea9b8 .size.jsx-a76d9429b0eea9b8,.controls.jsx-a76d9429b0eea9b8 .color.jsx-a76d9429b0eea9b8{margin:0 10px}.controls.jsx-a76d9429b0eea9b8 .type.jsx-a76d9429b0eea9b8 input.jsx-a76d9429b0eea9b8{display:none}.controls.jsx-a76d9429b0eea9b8 .type.jsx-a76d9429b0eea9b8 label.jsx-a76d9429b0eea9b8{text-align:center;cursor:pointer;width:30px;height:30px;margin:0 20px;line-height:30px;display:inline-block}.controls.jsx-a76d9429b0eea9b8 .type.jsx-a76d9429b0eea9b8 input.jsx-a76d9429b0eea9b8:checked+label.jsx-a76d9429b0eea9b8{color:#eee;background:#111;border-radius:50%}.controls.jsx-a76d9429b0eea9b8 .size.jsx-a76d9429b0eea9b8 input.jsx-a76d9429b0eea9b8{height:10px}.controls.jsx-a76d9429b0eea9b8 .actions.jsx-a76d9429b0eea9b8{text-align:right;flex:1}.controls.jsx-a76d9429b0eea9b8 .actions.jsx-a76d9429b0eea9b8 button.jsx-a76d9429b0eea9b8{cursor:pointer;padding:5px 10px}"
+                id: "b7a271b598360364",
+                children: ".jsx-b7a271b598360364{box-sizing:border-box;margin:0;padding:0}body.jsx-b7a271b598360364{background:#555}.app.jsx-b7a271b598360364{width:650px;height:650px;font-family:Raleway,sans-serif;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%)}.controls.jsx-b7a271b598360364{background:#ddd;align-items:center;height:50px;padding:0 10px;display:flex}.controls.jsx-b7a271b598360364 .title.jsx-b7a271b598360364{color:#222;width:80px;font-weight:600}.controls.jsx-b7a271b598360364 .type.jsx-b7a271b598360364,.controls.jsx-b7a271b598360364 .size.jsx-b7a271b598360364,.controls.jsx-b7a271b598360364 .color.jsx-b7a271b598360364{margin:0 10px}.controls.jsx-b7a271b598360364 .type.jsx-b7a271b598360364 input.jsx-b7a271b598360364{display:none}.controls.jsx-b7a271b598360364 .type.jsx-b7a271b598360364 label.jsx-b7a271b598360364{text-align:center;cursor:pointer;width:30px;height:30px;margin:0 20px;line-height:30px;display:inline-block}.controls.jsx-b7a271b598360364 .type.jsx-b7a271b598360364 input.jsx-b7a271b598360364:checked+label.jsx-b7a271b598360364{color:#eee;background:#111;border-radius:50%}.controls.jsx-b7a271b598360364 .size.jsx-b7a271b598360364 input.jsx-b7a271b598360364{height:10px}.controls.jsx-b7a271b598360364 .actions.jsx-b7a271b598360364{text-align:right;flex:1}.controls.jsx-b7a271b598360364 .actions.jsx-b7a271b598360364 button.jsx-b7a271b598360364{cursor:pointer;padding:5px 10px}"
             }, void 0, false, void 0, this)
         ]
     }, void 0, true);

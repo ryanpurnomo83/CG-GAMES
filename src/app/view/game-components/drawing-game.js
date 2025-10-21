@@ -1,7 +1,6 @@
-'use client'; // Tambahkan ini kalau di Next.js App Router (wajib untuk file yang pakai browser-only code)
+'use client';
 
 import { useEffect, useRef } from "react";
-import Script from "next/script";
 import Head from "next/head";
 
 export default function Game1() {
@@ -9,24 +8,35 @@ export default function Game1() {
 
   useEffect(() => {
     const loadP5 = async () => {
-      const p5 = (await import('p5')).default;
+      const p5 = (await import("p5")).default;
 
       new p5((sketch) => {
         let canvas;
 
         sketch.setup = () => {
-          canvas = sketch.createCanvas(650, 600);
+          const parentWidth = canvasWrapperRef.current.offsetWidth;
+          const parentHeight = window.innerHeight * 0.7; // 70% layar
+          canvas = sketch.createCanvas(parentWidth, parentHeight);
           canvas.parent(canvasWrapperRef.current);
           sketch.background(255);
         };
 
-        sketch.draw = () => {
-          // kosongkan atau buat sesuai kebutuhan
+        sketch.windowResized = () => {
+          const parentWidth = canvasWrapperRef.current.offsetWidth;
+          const parentHeight = window.innerHeight * 0.7;
+          sketch.resizeCanvas(parentWidth, parentHeight);
+          sketch.background(255);
         };
 
+        sketch.draw = () => {};
+
         sketch.mouseDragged = () => {
-          const type = document.querySelector("#pen-pencil")?.checked ? "pencil" : "brush";
-          const size = parseInt(document.querySelector("#pen-size")?.value || "1");
+          const type = document.querySelector("#pen-pencil")?.checked
+            ? "pencil"
+            : "brush";
+          const size = parseInt(
+            document.querySelector("#pen-size")?.value || "1"
+          );
           const color = document.querySelector("#pen-color")?.value || "#000";
 
           sketch.fill(color);
@@ -34,7 +44,12 @@ export default function Game1() {
           sketch.strokeWeight(size);
 
           if (type === "pencil") {
-            sketch.line(sketch.pmouseX, sketch.pmouseY, sketch.mouseX, sketch.mouseY);
+            sketch.line(
+              sketch.pmouseX,
+              sketch.pmouseY,
+              sketch.mouseX,
+              sketch.mouseY
+            );
           } else {
             sketch.ellipse(sketch.mouseX, sketch.mouseY, size, size);
           }
@@ -68,7 +83,10 @@ export default function Game1() {
     <>
       <Head>
         <title>Drawing Game</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
       </Head>
 
       <div className="app">
@@ -116,30 +134,27 @@ export default function Game1() {
           background: #555;
         }
         .app {
-          position: fixed;
-          top: 50%;
-          left: 50%;
-          transform: translate(-50%, -50%);
-          width: 650px;
-          height: 650px;
+          position: relative;
+          margin: 10px auto;
+          width: 100%;
+          max-width: 650px;
           font-family: "Raleway", sans-serif;
+          background: #fff;
+          border-radius: 8px;
+          overflow: hidden;
         }
         .controls {
-          height: 50px;
           display: flex;
+          flex-wrap: wrap;
           align-items: center;
           background: #ddd;
-          padding: 0 10px;
+          padding: 8px;
+          gap: 10px;
         }
         .controls .title {
           font-weight: 600;
           color: #222;
-          width: 80px;
-        }
-        .controls .type,
-        .controls .size,
-        .controls .color {
-          margin: 0 10px;
+          min-width: 60px;
         }
         .controls .type input {
           display: none;
@@ -150,7 +165,7 @@ export default function Game1() {
           display: inline-block;
           text-align: center;
           line-height: 30px;
-          margin: 0 20px;
+          margin: 0 5px;
           cursor: pointer;
         }
         .controls .type input:checked + label {
@@ -162,12 +177,30 @@ export default function Game1() {
           height: 10px;
         }
         .controls .actions {
-          flex: 1;
-          text-align: right;
+          margin-left: auto;
+          display: flex;
+          gap: 8px;
         }
         .controls .actions button {
           padding: 5px 10px;
           cursor: pointer;
+          border: none;
+          border-radius: 4px;
+        }
+
+        /* Responsif untuk smartphone */
+        @media (max-width: 600px) {
+          .app {
+            border-radius: 0;
+          }
+          .controls {
+            flex-direction: column;
+            align-items: flex-start;
+          }
+          .controls .actions {
+            width: 100%;
+            justify-content: flex-end;
+          }
         }
       `}</style>
     </>

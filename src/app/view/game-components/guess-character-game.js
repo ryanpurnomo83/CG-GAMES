@@ -16,6 +16,8 @@ const characters = [
     }
 ];
 
+//const API = "10d72162099ef1b8dd02f6d61f0b20d1"
+
 export default function Game2(){
     const[current, setCurrent] = useState(0);
     const[guess, setGuess] = useState("");

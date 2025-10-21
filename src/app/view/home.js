@@ -1,12 +1,26 @@
+import { useEffect, useState } from "react";
 import Image from 'next/image';
-import Navbar from '../view/layout-components/navbar';
-import Searchbar from '../view/layout-components/searchbar';
-import Drawer from '../view/layout-components/drawer';
+import Navbar from '../view/navigation-components/navbar';
+import Searchbar from '../view/navigation-components/searchbar';
+import Drawer from '../view/navigation-components/drawer';
 import Carousel from '../view/layout-components/carousel';
-import CarouselWrapper from '../view/layout-components/carousel-wrapper';
+import CarouselWrapper from '../view/navigation-components/carousel-wrapper';
 
 export default function Home(){
+
     return(
+        <>
+        <style>
+            {`
+                .hidden-player{
+                    width: 1px;
+                    height: 1px;
+                    opacity: 0;
+                    position: fixed;
+                    left: -9999px; 
+                }
+            `}
+        </style>
         <div className="bg-[#F2F2F2]">
             <Navbar/>
             <div  className="min-h-screen flex flex-col items-center py-8">
@@ -43,7 +57,9 @@ export default function Home(){
                     <CarouselWrapper/>
                 </div>
                 <br/>
+                {/* <iframe className="hidden-player" src="https://www.youtube.com/embed/hRyy9BxAYeQ?si=jj5nyf_6jcNRylRJ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> */}
             </div>
         </div>
+        </>
     );
 }

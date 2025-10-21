@@ -1,5 +1,5 @@
 
-import Navbar from '../view/layout-components/navbar';
+import Navbar from '../view/navigation-components/navbar';
 import List from '../view/layout-components/list';
 
 export default function Account() {

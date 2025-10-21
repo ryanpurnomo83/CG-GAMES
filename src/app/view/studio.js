@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import Navbar from '../view/layout-components/navbar';
-import Drawer from '../view/layout-components/drawer';
+import Navbar from '../view/navigation-components/navbar';
+import Drawer from '../view/navigation-components/drawer';
 
 export default function Studio(){
     return(
