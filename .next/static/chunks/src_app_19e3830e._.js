@@ -781,89 +781,36 @@ function Account() {
                 className: "flex flex-col items-center py-8",
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                        className: "text-black text-xl font-bold",
-                        children: "Saul Goodman"
+                        className: "text-2xl font-semibold text-gray-800 mb-6",
+                        children: "You Have to Login"
                     }, void 0, false, {
                         fileName: "[project]/src/app/view/account.js",
-                        lineNumber: 12,
+                        lineNumber: 28,
                         columnNumber: 9
                     }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-black text-md mb-4",
-                        children: "NIJ : 23005432"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/view/account.js",
-                        lineNumber: 13,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$view$2f$layout$2d$components$2f$list$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        title: "My Profile",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "flex gap-4",
                         children: [
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "px-4 py-2 hover:bg-gray-100 cursor-pointer",
-                                children: "Email"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "px-6 py-2 bg-blue-600 text-white font-medium rounded-xl shadow-md hover:bg-blue-700 hover:shadow-lg transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-400",
+                                children: "Login"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/view/account.js",
-                                lineNumber: 16,
+                                lineNumber: 30,
                                 columnNumber: 13
                             }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "px-4 py-2 hover:bg-gray-100 cursor-pointer",
-                                children: "Phone"
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                className: "px-6 py-2 bg-white text-blue-600 font-medium rounded-xl border border-blue-600 hover:bg-blue-50 hover:shadow-md transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-300",
+                                children: "Register"
                             }, void 0, false, {
                                 fileName: "[project]/src/app/view/account.js",
-                                lineNumber: 17,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "px-4 py-2 hover:bg-gray-100 cursor-pointer",
-                                children: "Tanggal Lahir"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/view/account.js",
-                                lineNumber: 18,
-                                columnNumber: 13
-                            }, this),
-                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                className: "px-4 py-2 hover:bg-gray-100 cursor-pointer",
-                                children: "GMS"
-                            }, void 0, false, {
-                                fileName: "[project]/src/app/view/account.js",
-                                lineNumber: 19,
+                                lineNumber: 34,
                                 columnNumber: 13
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/app/view/account.js",
-                        lineNumber: 15,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "py-1"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/view/account.js",
-                        lineNumber: 21,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$app$2f$view$2f$layout$2d$components$2f$list$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
-                        title: "Volunteer Experience",
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                            className: "px-4 py-2 hover:bg-gray-100 cursor-pointer",
-                            children: "Service Experience"
-                        }, void 0, false, {
-                            fileName: "[project]/src/app/view/account.js",
-                            lineNumber: 23,
-                            columnNumber: 13
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/view/account.js",
-                        lineNumber: 22,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                        className: "py-1"
-                    }, void 0, false, {
-                        fileName: "[project]/src/app/view/account.js",
-                        lineNumber: 25,
+                        lineNumber: 29,
                         columnNumber: 9
                     }, this)
                 ]
@@ -1298,7 +1245,7 @@ function Game2() {
                     const ytPlayer = new YT.Player("yt-audio", {
                         height: "0",
                         width: "0",
-                        videoId: "hRyy9BxAYeQ",
+                        videoId: "KGtMuxBP4CY",
                         events: {
                             onReady: {
                                 "Game2.useEffect": (event)=>{

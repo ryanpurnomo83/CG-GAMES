@@ -16,7 +16,7 @@ export default function Game2(){
       const ytPlayer = new YT.Player("yt-audio", {
         height: "0",
         width: "0",
-        videoId: "hRyy9BxAYeQ",
+        videoId: "KGtMuxBP4CY",
         events: {
           onReady: (event) => {
             setPlayer(event.target);
